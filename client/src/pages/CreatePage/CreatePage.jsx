@@ -16,6 +16,7 @@ export const CreatePage = () => {
   const [skillsThree, setSkillsThree] = useState("");
 
   const createPet = async () => {
+    
     if (name !== "" && type !== "" && description !== "") {
       let data = {
         petName: name,
@@ -28,10 +29,7 @@ export const CreatePage = () => {
         },
       };
       try {
-        let result = await axios.post(
-          "http://localhost:8080/api/pets/new",
-          data
-        );
+        let result = await axios.post("http://localhost:8080/api/pets/new",data);
         if (result.status === 200) {
           navigate("/");
         }

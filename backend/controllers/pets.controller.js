@@ -41,7 +41,7 @@ const getPetsById = async (req, res) => {
   }
 };
 
-//UPDATE NORMAL
+//UPDATE
 const updatePet = async (req, res) => {
   try {
     let id = req.params.petsId;
@@ -56,7 +56,7 @@ const updatePet = async (req, res) => {
   }
 };
 
-//BORRAR
+//DELETE
 const deletePet = async (req, res) => {
   try {
     let id = req.params.petsId;
