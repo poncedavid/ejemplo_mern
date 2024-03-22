@@ -1,0 +1,39 @@
+.tableContainer{
+    border: 2px solid black;
+
+    
+}
+
+.container{
+    display:flex;
+    justify-content: space-around ;
+}
+
+
+
+
+table tr:nth-child(odd){
+    background-color: beige;
+}
+
+th{
+    background-color: antiquewhite;
+}
+
+table {
+    border-collapse: collapse;
+}
+table td  {
+    border-left: 2px solid black;
+    padding: 8px;
+}
+
+table td:first-child{
+    border-left: none;
+}
+
+.link{
+    color: dodgerblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
