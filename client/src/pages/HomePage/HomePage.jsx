@@ -70,6 +70,7 @@ export const HomePage = () => {
             );
           })}
         </table>
+        <div></div>
       </div>
     </div>
   );

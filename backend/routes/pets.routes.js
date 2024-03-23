@@ -9,4 +9,4 @@ petRouter.get("/api/pets/get/:petsId", petsCtrl.getPetsById);
 petRouter.put("/api/pets/update/:petsId", petsCtrl.updatePet);
 petRouter.delete("/api/pets/delete/:petsId", petsCtrl.deletePet);
 
-export { petRouter };
+export {petRouter};

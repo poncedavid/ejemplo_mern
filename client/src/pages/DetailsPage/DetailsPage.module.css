@@ -1,15 +1,22 @@
-.container {
-  border: 2px solid black;
-  margin-right: 252px;
-  margin-left: 252px;
-  padding: 16px;
+.container{
+
+
+    border: 2px solid black;
+    margin-right: 252px;
+    margin-left: 252px;
+    padding: 16px;
+
+
 }
 
-.subContainer {
-  display: flex;
-  align-items: baseline;
+
+
+.subContainer{
+    display: flex;
+    align-items: baseline;
+    
 }
 
-.subContainer > h3 {
-  padding-right: 32px;
+.subContainer > h3{
+    padding-right: 32px;
 }
