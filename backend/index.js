@@ -13,7 +13,7 @@ app.listen(8080); // Levantamos el servidor en el puerto 8080
 
 
 //Conexión a la base de datos
-mongoose.connect("mongodb://127.0.0.1:27017/prueba3")
+mongoose.connect("mongodb://127.0.0.1:27017/petsdb")
 .then(()=>console.log("Conexion Correcta:[ puerto 8080 ]"))
 .catch((e)=>console.log("Error" + e));
 
